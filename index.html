@@ -1,228 +1,177 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lyle Kelly — Web Developer</title>
+  <meta name="description" content="Portfolio of Lyle Kelly, Web Developer in Johannesburg. HTML, CSS, JavaScript, Python, Django, WordPress, WooCommerce, Shopify." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <a href="#" class="brand">LK</a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-label="Open navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<html>
-	<head>
-		<title>Lyle's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <main>
+    <!-- HERO -->
+    <section id="home" class="section hero">
+      <div class="container">
+        <h1 class="headline">Lyle Kelly</h1>
+        <p class="sub">Web Developer • Johannesburg</p>
+        <p class="tagline">I build responsive, user‑friendly websites and web apps with HTML, CSS, JavaScript, Python/Django, and WordPress.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+        </div>
+      </div>
+    </section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>About Me</h2>
+          <p>Solution-driven Web Developer with experience in front-end and back-end development, IT support, and SEO. Skilled in building responsive, user-friendly websites and web applications using HTML5, CSS3, JavaScript, Python, Django, Bootstrap, WordPress, WooCommerce, and Shopify. Adept at troubleshooting, optimizing performance, and implementing SEO strategies to boost online visibility. I bring a blend of creative problem-solving, technical expertise, and a commitment to delivering high-quality digital experiences.</p>
+        </div>
+        <div class="about-cards">
+          <div class="card">
+            <h3>Location</h3>
+            <p>Randfontein, Johannesburg</p>
+          </div>
+          <div class="card">
+            <h3>Experience</h3>
+            <p>Web Artist (2023–Present), Freelance (2021–2023), Vodacom4U (2016–2020)</p>
+          </div>
+          <div class="card">
+            <h3>Contact</h3>
+            <p><a href="mailto:lylekelly90@gmail.com">lylekelly90@gmail.com</a> • +27 72 372 7491</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="fas fa-chess-king"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Hi, I'm Lyle</h1>
-								<p>A Self Taught Web Developer</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skill-list">
+          <li><span>HTML5</span></li>
+          <li><span>CSS3 / Bootstrap</span></li>
+          <li><span>JavaScript / jQuery</span></li>
+          <li><span>Python / Django</span></li>
+          <li><span>WordPress</span></li>
+          <li><span>WooCommerce</span></li>
+          <li><span>Shopify</span></li>
+          <li><span>SEO</span></li>
+          <li><span>Cross‑browser testing</span></li>
+          <li><span>Zendesk</span></li>
+          <li><span>Remote Support (RDP / TeamViewer)</span></li>
+          <li><span>DNS & Email Configuration</span></li>
+        </ul>
+      </div>
+    </section>
 
-				<!-- Main -->
-					<div id="main">
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
 
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Hello! My name is Lyle and I enjoy creating things that live on the internet. My interest in web development started back in 2017 when I had to edit custom Wordpress themes — turns out hacking together a custom website taught me a lot about HTML & CSS! <a href="#work">Some of my awesome work</a>.</p>
-								<p></p>
-							</article>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-content">
+              <h3>Marketing Site</h3>
+              <p>Designed and developed a responsive marketing website using HTML5, CSS3, JavaScript, and jQuery. Focused on clean UI, fast load times, and accessibility.</p>
+              <ul class="stack"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>jQuery</li></ul>
+              <div class="links">
+                <a class="btn tiny" href="https://buydop.co.za/" aria-disabled="true">Live</a>
+                <a class="btn tiny ghost" href="#" aria-disabled="true"></a>
+              </div>
+            </div>
+          </article>
 
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Some Things I’ve Built, <a href="https://github.com/lylo22/Projects.git">My GitHub portfolio</a></p>
-								<p>I create according to design needs and business requirements.</p>
-							</article>
+          <article class="project-card">
+            <div class="project-content">
+              <h3>WordPress E‑commerce Build</h3>
+              <p>Built a custom WooCommerce store with a tailored theme and filters. Integrated payment gateways and optimized product pages for SEO.</p>
+              <ul class="stack"><li>WordPress</li><li>WooCommerce</li><li>PHP</li><li>SEO</li></ul>
+              <div class="links">
+                <a class="btn tiny" href="https://vodacom4u.co.za/" aria-disabled="true">Live (NDA)</a>
+                <a class="btn tiny ghost" href="#" aria-disabled="true">GitHub (N/A)</a>
+              </div>
+            </div>
+          </article>
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>The primary area of my interest is undoubtedly front-end. Im a Well-organized person, problem solver, independent employee with high attention to detail.
 
-									Interested in the entire front and back-end spectrum and working on ambitious projects with positive people.</p>
-							</article>
+    <!-- RESUME -->
+    <section id="resume" class="section">
+      <div class="container">
+        <h2>Resume</h2>
+        <p>Download a copy of my current CV.</p>
+        <div class="cta">
+          <a class="btn" href="assets/Lyle_Kelly_WebDev_CV.docx" download>Download CV (.docx)</a>
+        </div>
+      </div>
+    </section>
 
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="https://formspree.io/f/xayajelw">
-									<input type="hidden" name="_next" value="file:///C:/Users/lylek/Documents/Projects/Portfolio/index.html"/>
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
-								<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/lyle-kelly-244a07145/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-									<li><a href="https://github.com/lylo22/Projects.git" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</article>
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Have a project in mind or want to chat? Send me a message.</p>
+        <!-- Formspree-ready; replace YOUR_FORM_ID with your form id -->
+        <form id="contactForm" action="https://formspree.io/f/xayajelw" method="POST" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+            <small class="error" data-for="name"></small>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="_replyto" required />
+            <small class="error" data-for="email"></small>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <small class="error" data-for="message"></small>
+          </div>
+          <button class="btn primary" type="submit">Send Message</button>
+        </form>
 
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
+        <div class="contact-meta">
+          <a href="mailto:lylekelly90@gmail.com">lylekelly90@gmail.com</a>
+          <span>•</span>
+          <a href="tel:+27723727491">+27 72 372 7491</a>
+          <span>•</span>
+          <a href="https://github.com/" target="https://github.com/lylo22" rel="noopener">GitHub</a>
+          <span>•</span>
+          <a href="https://www.linkedin.com/" target="https://www.linkedin.com/in/lyle-kelly-244a07145/" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-																		<pre><code>i = 0;
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Lyle Kelly. Built with HTML, CSS & JS.</p>
+      <a class="to-top" href="#home" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
 
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
-								<section>
-									<h3 class="major">Lists</h3>
-
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Lyle 2021</p>
-					</footer>
-
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+  <script src="script.js"></script>
+</body>
 </html>
